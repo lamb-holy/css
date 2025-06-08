@@ -1,0 +1,47 @@
+.main_container {
+  max-width: 906px;
+  margin: 0 auto;
+}
+
+.main_row:not(:last-child) {
+    margin-bottom: 130px;
+}
+
+.main_row .main_card:first-child {
+    margin-right: 62px;
+}
+
+.main_card {
+  display: inline-block;
+}
+
+.main_card--lifestyle {
+  font-family: Ubuntu;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--greyBeige);
+  margin-top: 62px;
+  margin-bottom: 32px;
+}
+
+.main_card--title {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--darkGray);
+  margin-bottom: 40px;
+}
+
+.main_card--text {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--darkGray);
+  max-width: 420px;
+}
